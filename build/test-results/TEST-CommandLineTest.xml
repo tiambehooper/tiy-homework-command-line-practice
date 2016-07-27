@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CommandLineTest" tests="11" skipped="0" failures="11" errors="0" timestamp="2016-07-27T15:05:03" hostname="Dougs-MacBook-Pro.local" time="0.017">
+<testsuite name="CommandLineTest" tests="11" skipped="0" failures="11" errors="0" timestamp="2016-07-27T15:27:15" hostname="Dougs-MacBook-Pro.local" time="0.019">
   <properties/>
-  <testcase name="deleteMeTxtIsDeletedTest" classname="CommandLineTest" time="0.01">
+  <testcase name="deleteMeTxtIsDeletedTest" classname="CommandLineTest" time="0.011">
     <failure message="java.lang.AssertionError: src/main/resources/deleteMe.txt is not deleted&#10;Expected: is &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: src/main/resources/deleteMe.txt is not deleted
 Expected: is &lt;false&gt;
      but: was &lt;true&gt;
@@ -52,7 +52,7 @@ Expected: is &lt;false&gt;
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="imageFolderIsAFolderTest" classname="CommandLineTest" time="0.001">
+  <testcase name="imageFolderIsAFolderTest" classname="CommandLineTest" time="0.002">
     <failure message="java.lang.AssertionError: src/main/resources/images folder is not a folder&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: src/main/resources/images folder is not a folder
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
@@ -158,7 +158,7 @@ Expected: is &lt;true&gt;
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="exampleFolderDeletedTest" classname="CommandLineTest" time="0.001">
+  <testcase name="exampleFolderDeletedTest" classname="CommandLineTest" time="0.0">
     <failure message="java.lang.AssertionError: example folder is not deleted&#10;Expected: is &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: example folder is not deleted
 Expected: is &lt;false&gt;
      but: was &lt;true&gt;
@@ -209,7 +209,7 @@ Expected: is &lt;false&gt;
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="misspellllledTxtRenamedTest" classname="CommandLineTest" time="0.0">
+  <testcase name="misspellllledTxtRenamedTest" classname="CommandLineTest" time="0.001">
     <failure message="java.lang.AssertionError: misspellllled.txt not renamed to misspelled.txt&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: misspellllled.txt not renamed to misspelled.txt
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
@@ -311,7 +311,7 @@ Expected: is &lt;true&gt;
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="tiyLogoInImagesFolderTest" classname="CommandLineTest" time="0.001">
+  <testcase name="tiyLogoInImagesFolderTest" classname="CommandLineTest" time="0.0">
     <failure message="java.lang.AssertionError: the-iron-yard-logo.png is not in the src/main/resources/images&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: the-iron-yard-logo.png is not in the src/main/resources/images
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
@@ -362,7 +362,7 @@ Expected: is &lt;true&gt;
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="mainWasRunTest" classname="CommandLineTest" time="0.0">
+  <testcase name="mainWasRunTest" classname="CommandLineTest" time="0.001">
     <failure message="java.lang.AssertionError: Didn't run 'gradle -run'&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Didn't run 'gradle -run'
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
@@ -464,7 +464,7 @@ Expected: is &lt;true&gt;
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="imageFolderCreatedTest" classname="CommandLineTest" time="0.0">
+  <testcase name="imageFolderCreatedTest" classname="CommandLineTest" time="0.001">
     <failure message="java.lang.AssertionError: Images folder was not created&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Images folder was not created
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;

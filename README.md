@@ -15,7 +15,7 @@ Clone the forked repository to your projects directory. This should create a new
 
 Confirm that the `tiy-homework-command-line-practice` directory exists and navigate into it.
 
-The project your cloned uses a tool called Gradle that you haven't been introduced to yet. We can use Gradle to test run and test this project at any time. Go ahead and test the project by running `gradle test`. You should see the output similar to this:
+The project you cloned uses a tool called Gradle that you haven't been introduced to yet. We can use Gradle to test run and test this project at any time. Go ahead and test the project by running `gradle test`. You should see the output similar to this:
 
 > $ gradle test<br />
 > :compileJava UP-TO-DATE<br />
