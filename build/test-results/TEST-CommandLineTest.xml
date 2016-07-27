@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CommandLineTest" tests="11" skipped="0" failures="11" errors="0" timestamp="2016-07-27T15:27:15" hostname="Dougs-MacBook-Pro.local" time="0.019">
+<testsuite name="CommandLineTest" tests="11" skipped="0" failures="11" errors="0" timestamp="2016-07-27T15:32:29" hostname="Dougs-MacBook-Pro.local" time="0.017">
   <properties/>
-  <testcase name="deleteMeTxtIsDeletedTest" classname="CommandLineTest" time="0.011">
+  <testcase name="deleteMeTxtIsDeletedTest" classname="CommandLineTest" time="0.01">
     <failure message="java.lang.AssertionError: src/main/resources/deleteMe.txt is not deleted&#10;Expected: is &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: src/main/resources/deleteMe.txt is not deleted
 Expected: is &lt;false&gt;
      but: was &lt;true&gt;
@@ -52,7 +52,7 @@ Expected: is &lt;false&gt;
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="imageFolderIsAFolderTest" classname="CommandLineTest" time="0.002">
+  <testcase name="imageFolderIsAFolderTest" classname="CommandLineTest" time="0.001">
     <failure message="java.lang.AssertionError: src/main/resources/images folder is not a folder&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: src/main/resources/images folder is not a folder
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
@@ -209,7 +209,7 @@ Expected: is &lt;false&gt;
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="misspellllledTxtRenamedTest" classname="CommandLineTest" time="0.001">
+  <testcase name="misspellllledTxtRenamedTest" classname="CommandLineTest" time="0.0">
     <failure message="java.lang.AssertionError: misspellllled.txt not renamed to misspelled.txt&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: misspellllled.txt not renamed to misspelled.txt
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
@@ -260,7 +260,7 @@ Expected: is &lt;true&gt;
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="renameMainTest" classname="CommandLineTest" time="0.0">
+  <testcase name="renameMainTest" classname="CommandLineTest" time="0.001">
     <failure message="java.lang.AssertionError: Didn't rename Main.java to Main.java&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Didn't rename Main.java to Main.java
 Expected: is &lt;true&gt;
      but: was &lt;false&gt;
