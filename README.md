@@ -15,7 +15,7 @@ Clone the forked repository to your projects directory. This should create a new
 
 Confirm that the `tiy-homework-command-line-practice` directory exists and navigate into it.
 
-The project you cloned uses a tool called Gradle that you haven't been introduced to yet. We can use Gradle to test run and test this project at any time. Go ahead and test the project by running `gradle test`. You should see the output similar to this:
+The project you cloned uses a tool called Gradle that you haven't been introduced to yet. We can use Gradle to test run and test this project at any time. Go ahead and test the project by running `gradle test --info`. You should see the output similar to this:
 
 > $ gradle test<br />
 > :compileJava UP-TO-DATE<br />
@@ -85,7 +85,7 @@ This output shows us that 11 tests were run, but all 11 failed. You can rerun th
 
 4. There is a file in the root of the project named `the-iron-yard-logo.png`. This must be moved into the `images` folder you just created in `src/main/resources`.
 
-5. There is a file named `deleteMe.txt` in the root of the project. This must be deleted.
+5. There is a file named `deleteMe.txt` in the `src/main/resources` folder. This must be deleted.
 
 6. There is a folder named `example` in the root of the project. This must be deleted.
 
