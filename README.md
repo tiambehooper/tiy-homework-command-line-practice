@@ -171,7 +171,7 @@ This output shows us that 11 tests were run, but all 11 failed. You can rerun th
 
 1. There is a file named `main.txt` in the folder `src/main/java/`. This file must be renamed to `Main.java`.
 
-2. Now that you've correctly renamed the Main.java file you can to run it using `gradle run -q`. This will print out a friendly message and create a new file named `mainWasRun.txt` in the root of your project.
+2. Now that you've correctly renamed the Main.java file you can to run it using `gradle run -q` in the root directory of the project. This will print out a friendly message and create a new file named `mainWasRun.txt` in the root of your project.
 
 3. Create a new folder named `images` in the folder `src/main/resources`.
 
