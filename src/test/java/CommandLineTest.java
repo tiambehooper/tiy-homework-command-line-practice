@@ -10,7 +10,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class CommandLineTest {
 
     @Test
-    // rename src/main/java/Main.java to src/main/java/Main.java
+    // rename src/main/java/main.txt to src/main/java/Main.java
     public void renameMainTest(){
         assertThat("Didn't rename Main.java to Main.java",
                 Files.exists(Paths.get("src/main/java/Main.java")), is(true));
