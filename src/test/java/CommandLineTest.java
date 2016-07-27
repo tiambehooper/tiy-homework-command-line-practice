@@ -76,7 +76,7 @@ public class CommandLineTest {
     // fruit.txt contains "apples, oranges, hot dogs, grapes, peaches"
     public void fruitContainsCorrectTextTest() throws IOException {
         assertThat("fruit.txt does not contain the correct list of fruit",
-                new String(Files.readAllBytes(Paths.get("fruit.txt"))),
+                new String(Files.readAllBytes(Paths.get("fruit.txt"))).trim(),
                 is("apples, oranges, hot dogs, grapes, peaches"));
     }
 
